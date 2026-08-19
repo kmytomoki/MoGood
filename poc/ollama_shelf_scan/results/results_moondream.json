@@ -1,0 +1,400 @@
+{
+  "model": "moondream",
+  "sample_count": 10,
+  "exact_match_count": 0,
+  "exact_match_rate_percent": 0.0,
+  "latency_ms": {
+    "avg": 34919.92,
+    "p50": 34412.86,
+    "p90": 43718.7,
+    "max": 46969.16
+  },
+  "field_accuracy_percent": {
+    "product_name": 0.0,
+    "price_yen": 20.0,
+    "quantity_value": 30.0,
+    "quantity_unit": 30.0
+  },
+  "rows": [
+    {
+      "image": "sample_01.png",
+      "latency_ms": 32272.63,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": true,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "500g",
+        "price_yen": 388,
+        "tax_included": null,
+        "quantity_value": 500.0,
+        "quantity_unit": "kg"
+      },
+      "ground_truth": {
+        "product_name": "豚こま切れ",
+        "price_yen": 398,
+        "quantity_value": 500,
+        "quantity_unit": "g",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 0.08,
+        "basis": "per_100g",
+        "normalized_quantity": 500000.0,
+        "normalized_unit": "g"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 79.6,
+        "basis": "per_100g",
+        "normalized_quantity": 500,
+        "normalized_unit": "g"
+      }
+    },
+    {
+      "image": "sample_02.png",
+      "latency_ms": 28839.53,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": true
+      },
+      "prediction": {
+        "product_name": "?",
+        "price_yen": 490,
+        "tax_included": true,
+        "quantity_value": 4.3,
+        "quantity_unit": "g"
+      },
+      "ground_truth": {
+        "product_name": "鶏むね肉",
+        "price_yen": 430,
+        "quantity_value": 480,
+        "quantity_unit": "g",
+        "tax_included": true
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 11395.35,
+        "basis": "per_100g",
+        "normalized_quantity": 4.3,
+        "normalized_unit": "g"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 89.58,
+        "basis": "per_100g",
+        "normalized_quantity": 480,
+        "normalized_unit": "g"
+      }
+    },
+    {
+      "image": "sample_03.png",
+      "latency_ms": 40846.91,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": true,
+        "quantity_value": true,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "2.8",
+        "price_yen": 228,
+        "tax_included": true,
+        "quantity_value": 1.0,
+        "quantity_unit": "個"
+      },
+      "ground_truth": {
+        "product_name": "牛乳",
+        "price_yen": 228,
+        "quantity_value": 1.0,
+        "quantity_unit": "L",
+        "tax_included": true
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 228.0,
+        "basis": "per_item",
+        "normalized_quantity": 1.0,
+        "normalized_unit": "個"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 22.8,
+        "basis": "per_100ml",
+        "normalized_quantity": 1000.0,
+        "normalized_unit": "ml"
+      }
+    },
+    {
+      "image": "sample_04.png",
+      "latency_ms": 46969.16,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "E-J",
+        "price_yen": 498,
+        "tax_included": true,
+        "quantity_value": 498.0,
+        "quantity_unit": "kg"
+      },
+      "ground_truth": {
+        "product_name": "ヨーグルト",
+        "price_yen": 178,
+        "quantity_value": 400,
+        "quantity_unit": "g",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 0.1,
+        "basis": "per_100g",
+        "normalized_quantity": 498000.0,
+        "normalized_unit": "g"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 44.5,
+        "basis": "per_100g",
+        "normalized_quantity": 400,
+        "normalized_unit": "g"
+      }
+    },
+    {
+      "image": "sample_05.png",
+      "latency_ms": 43357.54,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": true
+      },
+      "prediction": {
+        "product_name": "paper",
+        "price_yen": 0,
+        "tax_included": true,
+        "quantity_value": 0.28,
+        "quantity_unit": "個"
+      },
+      "ground_truth": {
+        "product_name": "卵",
+        "price_yen": 298,
+        "quantity_value": 10,
+        "quantity_unit": "個",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 0.0,
+        "basis": "per_item",
+        "normalized_quantity": 0.28,
+        "normalized_unit": "個"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 29.8,
+        "basis": "per_item",
+        "normalized_quantity": 10,
+        "normalized_unit": "個"
+      }
+    },
+    {
+      "image": "sample_06.png",
+      "latency_ms": 36553.08,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": true,
+        "quantity_value": false,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "8",
+        "price_yen": 248,
+        "tax_included": true,
+        "quantity_value": 0.72,
+        "quantity_unit": "個"
+      },
+      "ground_truth": {
+        "product_name": "スライスチーズ",
+        "price_yen": 248,
+        "quantity_value": 8,
+        "quantity_unit": "枚",
+        "tax_included": false
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 344.44,
+        "basis": "per_item",
+        "normalized_quantity": 0.72,
+        "normalized_unit": "個"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 31.0,
+        "basis": "per_item",
+        "normalized_quantity": 8,
+        "normalized_unit": "枚"
+      }
+    },
+    {
+      "image": "sample_07.png",
+      "latency_ms": 39898.51,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": true
+      },
+      "prediction": {
+        "product_name": "1",
+        "price_yen": 1,
+        "tax_included": true,
+        "quantity_value": 1.0,
+        "quantity_unit": "ml"
+      },
+      "ground_truth": {
+        "product_name": "豆乳",
+        "price_yen": 178,
+        "quantity_value": 1000,
+        "quantity_unit": "ml",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 100.0,
+        "basis": "per_100ml",
+        "normalized_quantity": 1.0,
+        "normalized_unit": "ml"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 17.8,
+        "basis": "per_100ml",
+        "normalized_quantity": 1000,
+        "normalized_unit": "ml"
+      }
+    },
+    {
+      "image": "sample_08.png",
+      "latency_ms": 30529.92,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "?",
+        "price_yen": 120,
+        "tax_included": true,
+        "quantity_value": 0.12,
+        "quantity_unit": "kg"
+      },
+      "ground_truth": {
+        "product_name": "トマト缶",
+        "price_yen": 128,
+        "quantity_value": 400,
+        "quantity_unit": "g",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 100.0,
+        "basis": "per_100g",
+        "normalized_quantity": 120.0,
+        "normalized_unit": "g"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 32.0,
+        "basis": "per_100g",
+        "normalized_quantity": 400,
+        "normalized_unit": "g"
+      }
+    },
+    {
+      "image": "sample_09.png",
+      "latency_ms": 24661.01,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": true,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "120g",
+        "price_yen": 228,
+        "tax_included": true,
+        "quantity_value": 120.0,
+        "quantity_unit": "kg"
+      },
+      "ground_truth": {
+        "product_name": "鮭フレーク",
+        "price_yen": 258,
+        "quantity_value": 120,
+        "quantity_unit": "g",
+        "tax_included": true
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 0.19,
+        "basis": "per_100g",
+        "normalized_quantity": 120000.0,
+        "normalized_unit": "g"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 215.0,
+        "basis": "per_100g",
+        "normalized_quantity": 120,
+        "normalized_unit": "g"
+      }
+    },
+    {
+      "image": "sample_10.png",
+      "latency_ms": 25270.88,
+      "ok": false,
+      "error": null,
+      "matches": {
+        "product_name": false,
+        "price_yen": false,
+        "quantity_value": false,
+        "quantity_unit": false
+      },
+      "prediction": {
+        "product_name": "98",
+        "price_yen": 0,
+        "tax_included": true,
+        "quantity_value": 0.89,
+        "quantity_unit": "個"
+      },
+      "ground_truth": {
+        "product_name": "ミネラルウォーター",
+        "price_yen": 98,
+        "quantity_value": 2.0,
+        "quantity_unit": "L",
+        "tax_included": null
+      },
+      "unit_price_pred": {
+        "unit_price_yen": 0.0,
+        "basis": "per_item",
+        "normalized_quantity": 0.89,
+        "normalized_unit": "個"
+      },
+      "unit_price_gt": {
+        "unit_price_yen": 4.9,
+        "basis": "per_100ml",
+        "normalized_quantity": 2000.0,
+        "normalized_unit": "ml"
+      }
+    }
+  ]
+}

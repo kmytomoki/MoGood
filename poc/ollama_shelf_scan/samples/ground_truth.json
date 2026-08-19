@@ -1,0 +1,82 @@
+[
+  {
+    "image": "sample_01.png",
+    "product_name": "豚こま切れ",
+    "price_yen": 398,
+    "quantity_value": 500,
+    "quantity_unit": "g",
+    "tax_included": null
+  },
+  {
+    "image": "sample_02.png",
+    "product_name": "鶏むね肉",
+    "price_yen": 430,
+    "quantity_value": 480,
+    "quantity_unit": "g",
+    "tax_included": true
+  },
+  {
+    "image": "sample_03.png",
+    "product_name": "牛乳",
+    "price_yen": 228,
+    "quantity_value": 1.0,
+    "quantity_unit": "L",
+    "tax_included": true
+  },
+  {
+    "image": "sample_04.png",
+    "product_name": "ヨーグルト",
+    "price_yen": 178,
+    "quantity_value": 400,
+    "quantity_unit": "g",
+    "tax_included": null
+  },
+  {
+    "image": "sample_05.png",
+    "product_name": "卵",
+    "price_yen": 298,
+    "quantity_value": 10,
+    "quantity_unit": "個",
+    "tax_included": null
+  },
+  {
+    "image": "sample_06.png",
+    "product_name": "スライスチーズ",
+    "price_yen": 248,
+    "quantity_value": 8,
+    "quantity_unit": "枚",
+    "tax_included": false
+  },
+  {
+    "image": "sample_07.png",
+    "product_name": "豆乳",
+    "price_yen": 178,
+    "quantity_value": 1000,
+    "quantity_unit": "ml",
+    "tax_included": null
+  },
+  {
+    "image": "sample_08.png",
+    "product_name": "トマト缶",
+    "price_yen": 128,
+    "quantity_value": 400,
+    "quantity_unit": "g",
+    "tax_included": null
+  },
+  {
+    "image": "sample_09.png",
+    "product_name": "鮭フレーク",
+    "price_yen": 258,
+    "quantity_value": 120,
+    "quantity_unit": "g",
+    "tax_included": true
+  },
+  {
+    "image": "sample_10.png",
+    "product_name": "ミネラルウォーター",
+    "price_yen": 98,
+    "quantity_value": 2.0,
+    "quantity_unit": "L",
+    "tax_included": null
+  }
+]

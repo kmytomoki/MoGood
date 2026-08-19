@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 環境変数・認証情報
+.env
+.env.*
+*.pem
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Office 一時ファイル
+~$*
+
+# Obsidian ワークスペース設定（起動のたびに変わるため除外）
+.obsidian/
